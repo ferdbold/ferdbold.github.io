@@ -1,0 +1,15 @@
+# Site
+title: ferdbold.com
+email: bolducfrederic@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Frédéric Bolduc, game developer, front-end developer and LARP aficionado
+baseurl: ""
+url: "http://ferdbold.github.io"
+twitter_username: itsferdbold
+github_username: ferdbold
+
+# Build
+markdown: kramdown
+
+# Outputting
+permalink: pretty
