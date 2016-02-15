@@ -11,6 +11,8 @@ tagline: 'front-end guy from the North'
 description: > # this means to ignore newlines until "baseurl:"
   Frédéric Bolduc, game developer, front-end developer and LARP aficionado.
 url: 'http://ferdbold.github.io'
+github_username: ferdbold
+twitter_username: itsferdbold
 
 author:
   name: 'Frédéric Bolduc'

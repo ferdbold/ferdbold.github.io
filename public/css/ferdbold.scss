@@ -1,0 +1,49 @@
+---
+---
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.sidebar-about h1 {
+	font-family: 'Roboto Slab';
+}
+
+.social-media-list {
+	@include clearfix;
+
+	list-style-type: none;
+	padding-left: 0;
+
+	li {
+		float: left;
+		margin-right: 0.5em;
+	}
+
+	img, svg {
+		width: 32px;
+		height: 32px;
+	}
+}
+
+.theme-base-fb {
+	.sidebar {
+		background-color: #061437;
+	}
+
+	.content a, .related-posts li a:hover {
+		color: #04AB4F;
+	}
+
+	.content {
+		h1, h2, h3 {
+			color: #061437;
+		}
+	}
+}

@@ -29,6 +29,20 @@
       <li class="sidebar-nav-item"><a href="{{ site.github.repo }}">GitHub project</a></li>
     </ul>
 
+    <ul class="social-media-list">
+      {% if site.github_username %}
+      <li>
+        {% include icon-github.html username=site.github_username %}
+      </li>
+      {% endif %}
+
+      {% if site.twitter_username %}
+      <li>
+        {% include icon-twitter.html username=site.twitter_username %}
+      </li>
+      {% endif %}
+    </ul>
+
     <p>Currently v{{ site.version }}</p>
   </div>
 </div>
