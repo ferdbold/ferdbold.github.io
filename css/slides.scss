@@ -1,11 +1,11 @@
 ---
 ---
 
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 
 body {
-  font-family: 'Droid Serif';
+  font-family: 'Roboto';
 }
 h1,
 h2,
@@ -23,6 +23,7 @@ h2 {
 h3 {
   font-size: 1.6em;
 }
+
 .footnote {
   position: absolute;
   bottom: 3em;
@@ -72,37 +73,6 @@ code {
   color: #f3f3f3;
   line-height: 0.8em;
 }
-/* Slide-specific styling */
-#slide-how .slides {
-  font-size: 0.9em;
-  position: absolute;
-  top: 151px;
-  right: 140px;
-}
-#slide-how .slides h3 {
-  margin-top: 0.2em;
-}
-#slide-how .slides .first,
-#slide-how .slides .second {
-  padding: 1px 20px;
-  height: 90px;
-  width: 120px;
-  -moz-box-shadow: 0 0 10px #777;
-  -webkit-box-shadow: 0 0 10px #777;
-  box-shadow: 0 0 10px #777;
-}
-#slide-how .slides .first {
-  background: #fff;
-  position: absolute;
-  top: 20%;
-  left: 20%;
-  z-index: 1;
-}
-#slide-how .slides .second {
-  position: relative;
-  background: #fff;
-  z-index: 0;
-}
 /* Two-column layout */
 .left-column {
   color: #777;
@@ -118,4 +88,10 @@ code {
   width: 75%;
   float: right;
   padding-top: 2em;
+
+  > h1, > h2, > h3 {
+    &:first-child {
+      margin-top: 0;
+    }
+  }
 }
