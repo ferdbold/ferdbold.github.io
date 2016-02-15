@@ -1,0 +1,27 @@
+---
+title: Project List
+layout: default
+---
+
+<h1 class="page-title">{{ page.title }}</h1>
+
+{{ content }}
+
+<ul class="projects">
+  {% assign years = site.projects | sort: "year" | group_by: "year" %}
+  {% for year in years reversed %}
+    <li>
+      <h2>{{ year.name }}</h2>
+      <ul>
+        {% assign projects = year.items | sort: "title" %}
+        {% for project in projects %}
+          <li>
+            <a href="{{ project.url }}">
+              {{ project.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,7 +1,8 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
+show_in_nav: true
 ---
 
 Hi, I'm Frédéric Bolduc. I'm a game and front-end developer from the arctic wastelands of Quebec. I'm currently looking for work in both of these fields, so feel free to [send me a pigeon](mailto:bolducfrederic@gmail.com) if you want to talk.
