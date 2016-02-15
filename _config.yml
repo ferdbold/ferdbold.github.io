@@ -1,15 +1,23 @@
-# Site
-title: Frédéric Bolduc
-email: bolducfrederic@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Frédéric Bolduc, game developer, front-end developer and LARP aficionado
-baseurl: ""
-url: "http://ferdbold.github.io"
-twitter_username: itsferdbold
-github_username: ferdbold
-
-# Build
+# Dependencies
 markdown: kramdown
+highlighter: pygments
 
-# Outputting
+# Permalinks
 permalink: pretty
+
+# Site
+title: ferdbold
+tagline: 'front-end guy from the North'
+description: > # this means to ignore newlines until "baseurl:"
+  Frédéric Bolduc, game developer, front-end developer and LARP aficionado.
+url: 'http://ferdbold.github.io'
+
+author:
+  name: 'Frédéric Bolduc'
+  url: http://github.com/ferdbold
+
+# Custom vars
+version: 1.0
+
+github:
+  repo: http://github.com/ferdbold/ferdbold.github.io
