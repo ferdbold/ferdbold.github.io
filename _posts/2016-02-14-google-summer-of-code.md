@@ -8,4 +8,4 @@ I recently did a talk at my university about my experience at Google Summer of C
 the whole process from start to finish, from applying to GSoC to receiving a snazzy t-shirt at the end of the summer. Oh, and how to contribute to 
 Wikipedia, since this is what I spent last summer on.
 
-You can find the slides [here]({{ site.base_url }}/slides/google-summer-of-code/) (in French only though, *désolé!*)
+You can find the slides [here]({{ site.base_url }}/slides/gsoc-101/) (in French only though, *désolé!*)
