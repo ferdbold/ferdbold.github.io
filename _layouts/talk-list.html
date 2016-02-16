@@ -1,0 +1,18 @@
+---
+title: Talks
+layout: default
+---
+
+<h1 class="page-title">{{ page.title }}</h1>
+
+{{ content }}
+
+<ul class="talks">
+  {% for talk in site.talks %}
+    <li>
+      ({{ talk.lang }}) <a href="{{ talk.url }}">
+        {{ talk.title }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
