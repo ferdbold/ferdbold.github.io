@@ -2,9 +2,19 @@
 layout: default
 ---
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.year }}</span>
+<article class="project">
+	<header>
+		<h1 class="post-title">{{ page.title }}</h1>
+		<p>
+			<span>{{ page.year }}</span>
+			{% if page.website %}
+	  			| <a href="http://{{ page.website }}">{{ page.website }}</a>
+	  		{% endif %}
+	  		{% if page.github %}
+	  			| <a href="http://github.com/{{ page.github }}">github</a>
+	  		{% endif %}
+		</p>
+	</header>
 
-  {{ content }}
-</div>
+	{{ content }}
+</article>

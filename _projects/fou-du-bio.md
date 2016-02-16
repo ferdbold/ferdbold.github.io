@@ -2,8 +2,7 @@
 title: Fou du Bio
 layout: project
 year: 2015
+website: foudubio.com
 ---
-
-[Official website](http://www.foudubio.com)  
 
 (more to come)
