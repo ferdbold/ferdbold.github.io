@@ -11,8 +11,10 @@ tagline: 'front-end guy from the North'
 description: > # this means to ignore newlines until "baseurl:"
   game and front-end developer, LARP&nbsp;aficionado
 url: 'http://ferdbold.github.io'
-github_username: ferdbold
-twitter_username: itsferdbold
+social:
+  github: ferdbold
+  twitter: itsferdbold
+  linkedin: bolducfrederic
 
 author:
   name: 'Frédéric Bolduc'

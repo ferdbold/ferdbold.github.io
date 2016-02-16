@@ -28,16 +28,22 @@
     </ul>
 
     <ul class="social-media-list">
-      {% if site.github_username %}
-      <li>
-        {% include icon-github.html username=site.github_username %}
-      </li>
+      {% if site.social.github %}
+        <li>
+          {% include icon-github.html username=site.social.github %}
+        </li>
       {% endif %}
 
-      {% if site.twitter_username %}
-      <li>
-        {% include icon-twitter.html username=site.twitter_username %}
-      </li>
+      {% if site.social.twitter %}
+        <li>
+          {% include icon-twitter.html username=site.social.twitter %}
+        </li>
+      {% endif %}
+
+      {% if site.social.linkedin %}
+        <li>
+          {% include icon-linkedin.html username=site.social.linkedin %}
+        </li>
       {% endif %}
     </ul>
   </div>
