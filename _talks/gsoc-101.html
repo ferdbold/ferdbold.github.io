@@ -132,9 +132,41 @@ Souvent, la rédaction d'une *micro-tâche* est requise avec l'application.
 
 .right-column[
 ## Calendrier 2015
+- **20 février**:  
+Liste des projets annoncés
+
+- **16 au 27 mars**:  
+Période d'application
+
+- **27 avril**:  
+Résultats annoncés
+
+- **27 avril au 25 mai**:  
+*Community bonding*
+
+- **25 mai au 21 août**:  
+`fun code time`
 ]
 
 .footnote[Voici le [calendrier 2016](https://summerofcode.withgoogle.com/) pour les intéressés]
+
+---
+
+.right-column[
+## Trucs faciles minute*
+
+- **Commencez tôt!** 10 jours, c'est très court. Publiez un brouillon si c'est possible et ajustez au fil des commentaires que vous recevrez jusqu'à la date limite.
+
+- **Qualité > Quantité:** Vous avez beaucoup plus de chances d'être choisi si vous concentrez vos efforts sur une ou deux applications.
+
+- **Planifiez:** Montrez que le sujet vous intéresse beaucoup en commençant à soumettre des idées. Schémas UML, maquettes d'interface, échéancier, bouts de code, etc.
+
+- **Restez alerte!** Les mentors *vont* poser des questions sur votre application après que vous l'ayiez posté. Soyez prêts à répondre et soyez disponible!
+
+- **Explorez:** La micro-tâche n'est *pas* à sous-estimer. Explorez plus loin que les micro-tâches suggérées et n'ayez pas peur d'essayer un autre ticket.
+]
+
+.footnote[**Certains trucs peuvent ne pas s'appliquer à toutes les organisations.*]
 
 ---
 
@@ -158,6 +190,104 @@ layout: true
 
 .right-column[
 ## Mon projet
+
+J'ai travaillé (et travaille toujours!) sur l'édition de graphiques dans [MediaWiki](http://www.mediawiki.org)
+
+[![Graph-VE pitch](https://upload.wikimedia.org/wikipedia/mediawiki/0/03/Ve-graph-showcase.png)](https://upload.wikimedia.org/wikipedia/mediawiki/0/03/Ve-graph-showcase.png)
+]
+
+---
+
+.right-column[
+## Mon projet
+
+J'ai intégré un outil permettant d'éditer des spécifications **[Vega](http://vega.github.io)** dans [VisualEditor](https://www.mediawiki.org/wiki/VisualEditor), l'éditeur WYSIWYG de MediaWiki.
+
+Voici un diagramme à bandes simple:
+![Diagramme à bandes simple]({{ site.base_url }}/public/images/vega-simple.png)
+]
+
+---
+
+.right-column[
+## Mon projet
+
+...et voici une spécification Vega générant un graphique à bandes simple: 
+
+.center[
+[![Spécification Vega]({{ site.base_url }}/public/images/vega-simple-spec-small.png)]({{ site.base_url }}/public/images/vega-simple-spec.png)
+]
+]
+
+---
+
+.right-column[
+## Ma routine
+
+- Me réveiller
+
+- Ouvrir tous mes outils
+  - [Vagrant](http://www.vagrantup.com): Machine virtuelle de développement
+  - [Adium](http://adium.im): Client IRC pour la communication
+  - [Phabricator](http://phabricator.org): Gestion de projet / bug tracking
+  - [SourceTree](http://sourcetree.com): Client Git
+  - [Gerrit](http://www.gerritcodereview.com): Repositoire / Code review
+
+- Lundis: Scrum avec les mentors sur [Google Hangouts](http://hangouts.google.com)
+
+- `vagrant git-update && vagrant provision`  
+et revenir dans 30 minutes
+
+- Travailler
+
+- Soumettre sur Gerrit
+]
+
+---
+
+.right-column[
+## La gameloop de travail
+
+```javascript
+try {
+	var commit;
+
+	code.read(); // UNSAFE
+	documentation.read(); // UNSAFE
+
+	while(!commit.pushed) {
+		commit = code.write();
+		gerrit.send(commit);
+		gerrit.waitForReview();
+	}
+
+} catch(e) {
+	irc.askQuestion(e.getMessage()); // !important
+	irc.waitForReply(onReply);
+}
+
+function onReply(answer) {
+	if (answer.type === 'jQuery.Deferred') {
+		google.search('jQuery.Deferred');
+		cry();
+	}
+}
+
+```
+]
+
+---
+
+.right-column[
+## Mythes
+
+- **La distance est votre ennemi.** Travailler à distance veut dire que personne ne sait ce que vous faites à tout moment. *Documentez*, *parlez sur IRC*, *posez des questions*. Apprenez à détester le décalage horaire.
+
+- **Les gens savent que vous êtes junior.** Posez des questions, les gens veulent vous voir poser des questions. IRC est là pour ça. Vos mentors n'attendent que ça.
+
+- **Vous n'êtes pas payé pour livrer un projet.** GSoC vous donne une *bourse*, pas un salaire. Ce n'est *pas* grave si le projet n'est pas terminé à la fin de l'été. Attendez-vous à passer la première moitié de l'été à comprendre ce que vous faites et à ne rien pusher.
+
+- **Chaque étape compte.** Attendez-vous à une moyenne de [10 lignes de code par jour](https://en.wikipedia.org/wiki/The_Mythical_Man-Month). Attendez-vous à réviser chaque patch environ 5 fois avant de la soumettre. Certains jours, vous ne coderez même pas.
 ]
 
 ---
@@ -182,7 +312,61 @@ layout: true
 ---
 
 .right-column[
-## Le ABC de la contribution
+## À mettre dans vos favoris
+
+- [Phabricator public](http://phabricator.wikimedia.org) pour la liste des tâches en cours
+
+- [Manuel d'utilisation](http://www.mediawiki.org) de MediaWiki, contient des guides d'installation
+
+- [Documentation](http://doc.wikimedia.org) de l'API développeur
+]
+
+---
+
+.right-column[
+## Installation 
+
+- Installer [Vagrant](http://www.vagrantup.com)
+
+- Installer [git review](https://www.mediawiki.org/wiki/Gerrit/Tutorial#Prepare_to_work_with_Gerrit)
+
+- `git clone --recursive https://gerrit.wikimedia.org/r/mediawiki/Vagrant`  
+  `./setup.sh`  
+  `vagrant up`
+
+- Tester que `127.0.0.1:8080` fonctionne bien
+
+- Installer les extensions avec Vagrant  
+  `vagrant roles enable {extension}`  
+  (ex.: `visualeditor`, `math`, `graph`)
+
+- `vagrant git-update && vagrant provision`
+]
+
+---
+
+.right-column[
+## Contribuer un premier changement
+
+1. Se faire connaître sur IRC. Wikimédia utilise [irc.freenode.org](http://www.freenode.org) et possède [beaucoup de salons](https://meta.wikimedia.org/wiki/IRC/Channels), mais le plus important est de loin `#wikimedia-dev`
+
+2. Se créer un compte sur Phabricator et Gerrit
+
+3. Prendre une tâche sur Phabricator
+
+4. Coder une première version d'un fix (un *patchset*)
+
+5. Soumettre la patch sur Gerrit avec `git review`
+
+6. Ajouter d'autres développeurs au patchset sur Gerrit ([exemple](https://gerrit.wikimedia.org/r/#/c/253537/))
+
+7. Attendre l'inévitable -1
+
+8. Modifier le commit localement et le rebâtir avec  
+`git commit --amend`, le resoumettre avec  
+`git review`, etc etc
+
+9. Victoire!
 ]
 
 ---
