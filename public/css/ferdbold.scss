@@ -9,6 +9,25 @@
   }
 }
 
+@mixin blur($value) {
+	filter: blur($value);
+	-moz-filter: blur($value);
+	-webkit-filter: blur($value);
+	-o-filter: blur($value);
+	-ms-filter: blur($value);
+}
+
+@mixin transition-filter($value) {
+	transition: 
+		filter $value, 
+		-moz-filter $value,
+		-webkit-filter $value,
+		-o-filter $value,
+		-ms-filter $value;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
+
 .sidebar-about h1 {
 	font-family: 'Roboto Slab';
 }
@@ -58,9 +77,15 @@ ul.projects-list {
 			transform: translate(-50%, -50%);
 		}
 
-		&:hover .overlay {
-			opacity: 1;
-			transform: scale(1);
+		&:hover {
+			img {
+				@include blur(5px);
+			}
+
+			.overlay {
+				opacity: 0.9;
+				transform: scale(1);
+			}
 		}
 	}
 
