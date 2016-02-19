@@ -56,8 +56,8 @@ ul.projects-list {
 	padding-left: 0;
 
 	li {
-		width: 50%;
-		padding-bottom: 33%;
+		width: 100%;
+		padding-bottom: 66%;
 		float: left;
 		position: relative;
 		overflow: hidden;
@@ -153,5 +153,10 @@ ul.projects-list {
 @media (min-width: 48rem) {
 	.social-media-list li {
 		margin: 0 0.5em 0 0;
+	}
+
+	ul.projects-list li {
+		width: 50%;
+		padding-bottom: 33%;
 	}
 }
