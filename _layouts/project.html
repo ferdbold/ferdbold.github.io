@@ -17,7 +17,9 @@ layout: default
 	</header>
 
 	{% if page.thumbnail %}
-		<img src="{{ page.thumbnail }}" alt="{{ page.title }}">
+		<a href="{{ page.thumbnail }}">
+			<img src="{{ page.thumbnail }}" alt="{{ page.title }}">
+		</a>
 	{% endif %}
 
 	{{ content }}
