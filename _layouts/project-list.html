@@ -7,21 +7,21 @@ layout: default
 
 {{ content }}
 
-<ul class="projects">
-  {% assign years = site.projects | sort: "year" | group_by: "year" %}
-  {% for year in years reversed %}
+<ul class="projects-list">
+  {% assign projects = site.projects | sort: "year" %}
+  {% for project in projects reversed %}
     <li>
-      <h2>{{ year.name }}</h2>
-      <ul>
-        {% assign projects = year.items | sort: "title" %}
-        {% for project in projects %}
-          <li>
-            <a href="{{ project.url }}">
-              {{ project.title }}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
+      <a href="{{ project.url }}">
+        {% if project.thumbnail %}
+          <img src="{{ project.thumbnail }}" alt="{{ project.title }}">
+        {% else %}
+          <img src="{{ site.base_url }}/public/images/project-thumbnail.png" alt="{{ project.title }}">
+        {% endif %}
+        <div class="overlay">
+          <span class="project-date">{{ project.year }}</span>
+          <h2>{{ project.title }}</h2>
+        </div>
+      </a>
     </li>
   {% endfor %}
 </ul>
