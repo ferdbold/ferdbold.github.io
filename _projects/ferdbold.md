@@ -1,8 +1,8 @@
 ---
-title: ferdbold.github.io
+title: ferdbold.com
 layout: project
 year: 2016
-website: ferdbold.github.io
+website: ferdbold.com
 github: ferdbold/ferdbold.github.io
 ---
 
