@@ -16,7 +16,11 @@ layout: default
 		</p>
 	</header>
 
-	{% if page.thumbnail %}
+	{% if page.banner %}
+		<a href="{{ page.banner }}">
+			<img src="{{ page.banner }}" alt="{{ page.title }}">
+		</a>
+	{% else if page.thumbnail %}
 		<a href="{{ page.thumbnail }}">
 			<img src="{{ page.thumbnail }}" alt="{{ page.title }}">
 		</a>
