@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cybéride</title>
+	<meta charset="utf-8">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="./cyberide.css">
+</head>
+<body>
+	<h1>Cybéride</h1>
+	<h2 id="name" class="hidden"></h2>
+
+	<div id="silhouette"></div>
+	<div id="painting"></div>
+
+	<!-- FACEBOOK SDK -->
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId: '105406622959201',
+				xfbml: true,
+				version: 'v2.5'
+			});
+
+			app.init();
+		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+	<script src="./cyberide.js"></script>
+</body>
+</html>

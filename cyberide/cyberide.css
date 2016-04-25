@@ -1,0 +1,67 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: Lato, Arial, sans-serif;
+	margin: 0;
+	overflow: hidden;
+}
+
+h1, h2 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2em;
+	font-weight: 100;
+}
+
+h1 {
+	font-size: 1.4em;
+	margin-top: 3em;
+	padding-bottom: 1.5em;
+	border-bottom: 1px solid #555;
+}
+
+h2 {
+	color: #888;
+	font-size: 1em;
+	font-weight: 400;
+	margin-top: 2em;
+	transition: opacity 3s;
+}
+
+#painting, #silhouette {
+	position: absolute;
+	top: 14em;
+	bottom: 0;
+	width: 100%;
+}
+
+#painting {
+	background-color: white;
+	z-index: 1;
+}
+
+#silhouette {
+	background-image: url(./silhouette.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: 10000;
+}
+
+.fb-content {
+	position: absolute;
+	transition-property: opacity;
+}
+
+.fb-content-moving {
+	transition-property: opacity, left, top;
+}
+
+.fb-image {
+	max-width: 300px;
+	height: auto;
+}
+
+.hidden {
+	opacity: 0;
+}
