@@ -2,6 +2,7 @@
 title: Déuström
 layout: project
 year: 2016
+github: ferdbold/deustrom
 banner: http://ferdbold.com/public/images/banner-deustrom.png
 thumbnail: http://ferdbold.com/public/images/thumb-deustrom.png
 ---
