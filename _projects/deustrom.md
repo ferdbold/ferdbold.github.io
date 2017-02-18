@@ -14,4 +14,6 @@ Déuström was made with Unity 5 in ten weeks by eight student developers and ar
 
 Throughout development, I was in charge of leading **UI development**, as well as the **grappling hook/chain mechanic** usable by players.
 
+![Déuström awards at Ubisoft Game Lab Competition 2016](http://www.laurierlajoie.com/wp-content/uploads/2016/04/20160412_prix_ubisoftgamelab.png)
+
 <iframe width="100%" height="405px" src="https://www.youtube.com/embed/2XC0gpAUNrk" frameborder="0" allowfullscreen></iframe>
