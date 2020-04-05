@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on ferdbold | Frédéric Bolduc</title>
+    <link>http://ferdbold.com/talk/</link>
+    <description>Recent content in Talks on ferdbold | Frédéric Bolduc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-CA</language>
+    <lastBuildDate>Sun, 14 Feb 2016 16:46:18 -0500</lastBuildDate>
+    
+	<atom:link href="http://ferdbold.com/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Summer of Code 101 (ou Comment j&#39;ai eu une job chez Wikimedia en quatre mois)</title>
+      <link>http://ferdbold.com/talk/gsoc-101/</link>
+      <pubDate>Sun, 14 Feb 2016 16:46:18 -0500</pubDate>
+      
+      <guid>http://ferdbold.com/talk/gsoc-101/</guid>
+      <description>class: center, middle, inverse# Google Summer of Code 101(ou *Comment j&#39;ai eu une job chez Wikimédia en quatre mois*).footnote[par [Frédéric Bolduc](http://ferdbold.com)]---.left-column[### Plan].right-column[1. Google Summer of quoi?2. Appliquer à GSoC3. Travailler chez Wikimédia4. Contribuer à Wikipédia]---class: center, middle, inverse# Google Summer of quoi?![wut?](/img/talk/gsoc-101/jackie-chan.jpg)---layout: true.left-column[### Plan### Google Summer of quoi?</description>
+    </item>
+    
+  </channel>
+</rss>

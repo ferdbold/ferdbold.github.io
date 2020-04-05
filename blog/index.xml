@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on ferdbold | Frédéric Bolduc</title>
+    <link>http://ferdbold.com/blog/</link>
+    <description>Recent content in Blog on ferdbold | Frédéric Bolduc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-CA</language>
+    <lastBuildDate>Sun, 03 Apr 2016 02:07:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://ferdbold.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Déuström!</title>
+      <link>http://ferdbold.com/blog/deustrom/</link>
+      <pubDate>Sun, 03 Apr 2016 02:07:00 -0400</pubDate>
+      
+      <guid>http://ferdbold.com/blog/deustrom/</guid>
+      <description>I&amp;rsquo;ve recently completed this year Ubisoft&amp;rsquo;s Game Lab competition, pitting 17 undergrad teams from all universities in Quebec in a battle to build the best game prototype possible in 10 weeks. There were a LOT of constraints required for the prototypes to meet, such as:
+ Gameplay must include at least 2 systems that regulate themselves and interact with one another Gameplay must include at least 3 mechanics that interact with both systems Gameplay must include a physics element Gameplay must include an AI element Must include checkpoints Must include a progression curve in mechanics complexity  That was one hell of a journey, but I&amp;rsquo;m very proud of what my team and I were able to accomplish with DÉUSTRÖM.</description>
+    </item>
+    
+    <item>
+      <title>Google Summer of Code (or How I got a job at Wikimedia in 4 months)</title>
+      <link>http://ferdbold.com/blog/google-summer-of-code/</link>
+      <pubDate>Sun, 14 Feb 2016 16:46:18 -0500</pubDate>
+      
+      <guid>http://ferdbold.com/blog/google-summer-of-code/</guid>
+      <description>I recently did a talk at my university about my experience at Google Summer of Code 2015 with the Wikimedia Foundation. It basically talks about the whole process from start to finish, from applying to GSoC to receiving a snazzy t-shirt at the end of the summer. Oh, and how to contribute to Wikipedia, since this is what I spent last summer on.
+You can find the slides here (in French only though, désolé!</description>
+    </item>
+    
+  </channel>
+</rss>

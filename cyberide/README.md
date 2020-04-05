@@ -1,2 +1,0 @@
-# cyberide
-Cybéride

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My work on ferdbold | Frédéric Bolduc</title>
+    <link>http://ferdbold.com/work/</link>
+    <description>Recent content in My work on ferdbold | Frédéric Bolduc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-CA</language>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ferdbold.com/work/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ferdbold.com</title>
+      <link>http://ferdbold.com/work/ferdbold/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ferdbold.com/work/ferdbold/</guid>
+      <description>This website! It was made with Jekyll and Hyde, two awesome tools to easily bring together a portfolio website and blog.
+It&amp;rsquo;s all open-source and hosted with GitHub Pages, so if you want to take a look at how I did it, head over to GitHub!</description>
+    </item>
+    
+    <item>
+      <title>Déuström</title>
+      <link>http://ferdbold.com/work/deustrom/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://ferdbold.com/work/deustrom/</guid>
+      <description>In Déuström, two players take control of gods Sobek and Cthulhu, in an epic battle to determine who will be named the true god of the seas. To do this, they must protect the islands of their followers, while converting those of their enemy (or simply flinging them into the terrifying maelstrom waiting at the center of the ocean!)
+Basically, Déuström is a fun two-player party game playable on PC, with a match time of 5 to 10 minutes.</description>
+    </item>
+    
+    <item>
+      <title>Graph-VE</title>
+      <link>http://ferdbold.com/work/graph-ve/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://ferdbold.com/work/graph-ve/</guid>
+      <description>Graph-VE was a project developed during Google Summer of Code 2015 for the Wikimedia Foundation to bring graph editing capabilities to MediaWiki&amp;rsquo;s VisualEditor project.
+With this project, Wikipedia (and all other platforms powered by MediaWiki) editors can now create and edit graphs through the visual editor, bringing more modern behaviours to Wikipedia&amp;rsquo;s user experience. This module uses Vega under the hood, a JavaScript library specialized in generating graphs from a JSON-based grammar.</description>
+    </item>
+    
+    <item>
+      <title>Terra Arcana</title>
+      <link>http://ferdbold.com/work/terra-arcana/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://ferdbold.com/work/terra-arcana/</guid>
+      <description>Terra Arcana is a LARP event hosted twice per year in Saint-Apollinaire, QC, co-founded by me and 4 other LARP enthusiasts in 2013. Our mission is to bring LARP players a collaborative storytelling experience that focuses on teamplay through a rich and innovative game system built from scratch, as well as deep character development through tailored quests made in collaboration with the players themselves.
+I am the lead developer of Terra Arcana&amp;rsquo;s online presence.</description>
+    </item>
+    
+    <item>
+      <title>WonderLAN UQAC</title>
+      <link>http://ferdbold.com/work/wonderlan-uqac/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://ferdbold.com/work/wonderlan-uqac/</guid>
+      <description>The WonderLAN UQAC is the leading LAN party in Saguenay-Lac-St-Jean, bringing together more than 200 gaming enthusiasts. Multiple gaming competitions are held every year, delivering a prize pool of over 3000$ to players in the region.
+I was the lead developer of WonderLAN UQAC&amp;rsquo;s website, powered by WordPress and Twitter Bootstrap.</description>
+    </item>
+    
+    <item>
+      <title>Zombeat Stromatolite Turbo Party Club</title>
+      <link>http://ferdbold.com/work/zombeat/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://ferdbold.com/work/zombeat/</guid>
+      <description>Zombeat Stromatolite Turbo Party Club is a little rhythm game about zombies, sick beats and disco balls. It was made during the WonderJam, a 48-hour game jam held at UQAC.
+The game was made with Unity. I was in charge of the asset integration and UI of the game, including all the menus.</description>
+    </item>
+    
+  </channel>
+</rss>

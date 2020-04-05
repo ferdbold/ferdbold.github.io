@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ferdbold | Frédéric Bolduc</title>
+    <link>http://ferdbold.com/</link>
+    <description>Recent content on ferdbold | Frédéric Bolduc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-CA</language>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ferdbold.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ferdbold.com</title>
+      <link>http://ferdbold.com/work/ferdbold/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ferdbold.com/work/ferdbold/</guid>
+      <description>This website! It was made with Jekyll and Hyde, two awesome tools to easily bring together a portfolio website and blog.
+It&amp;rsquo;s all open-source and hosted with GitHub Pages, so if you want to take a look at how I did it, head over to GitHub!</description>
+    </item>
+    
+    <item>
+      <title>Déuström!</title>
+      <link>http://ferdbold.com/blog/deustrom/</link>
+      <pubDate>Sun, 03 Apr 2016 02:07:00 -0400</pubDate>
+      
+      <guid>http://ferdbold.com/blog/deustrom/</guid>
+      <description>I&amp;rsquo;ve recently completed this year Ubisoft&amp;rsquo;s Game Lab competition, pitting 17 undergrad teams from all universities in Quebec in a battle to build the best game prototype possible in 10 weeks. There were a LOT of constraints required for the prototypes to meet, such as:
+ Gameplay must include at least 2 systems that regulate themselves and interact with one another Gameplay must include at least 3 mechanics that interact with both systems Gameplay must include a physics element Gameplay must include an AI element Must include checkpoints Must include a progression curve in mechanics complexity  That was one hell of a journey, but I&amp;rsquo;m very proud of what my team and I were able to accomplish with DÉUSTRÖM.</description>
+    </item>
+    
+    <item>
+      <title>Google Summer of Code (or How I got a job at Wikimedia in 4 months)</title>
+      <link>http://ferdbold.com/blog/google-summer-of-code/</link>
+      <pubDate>Sun, 14 Feb 2016 16:46:18 -0500</pubDate>
+      
+      <guid>http://ferdbold.com/blog/google-summer-of-code/</guid>
+      <description>I recently did a talk at my university about my experience at Google Summer of Code 2015 with the Wikimedia Foundation. It basically talks about the whole process from start to finish, from applying to GSoC to receiving a snazzy t-shirt at the end of the summer. Oh, and how to contribute to Wikipedia, since this is what I spent last summer on.
+You can find the slides here (in French only though, désolé!</description>
+    </item>
+    
+    <item>
+      <title>Google Summer of Code 101 (ou Comment j&#39;ai eu une job chez Wikimedia en quatre mois)</title>
+      <link>http://ferdbold.com/talk/gsoc-101/</link>
+      <pubDate>Sun, 14 Feb 2016 16:46:18 -0500</pubDate>
+      
+      <guid>http://ferdbold.com/talk/gsoc-101/</guid>
+      <description>class: center, middle, inverse# Google Summer of Code 101(ou *Comment j&#39;ai eu une job chez Wikimédia en quatre mois*).footnote[par [Frédéric Bolduc](http://ferdbold.com)]---.left-column[### Plan].right-column[1. Google Summer of quoi?2. Appliquer à GSoC3. Travailler chez Wikimédia4. Contribuer à Wikipédia]---class: center, middle, inverse# Google Summer of quoi?![wut?](/img/talk/gsoc-101/jackie-chan.jpg)---layout: true.left-column[### Plan### Google Summer of quoi?</description>
+    </item>
+    
+    <item>
+      <title>Déuström</title>
+      <link>http://ferdbold.com/work/deustrom/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://ferdbold.com/work/deustrom/</guid>
+      <description>In Déuström, two players take control of gods Sobek and Cthulhu, in an epic battle to determine who will be named the true god of the seas. To do this, they must protect the islands of their followers, while converting those of their enemy (or simply flinging them into the terrifying maelstrom waiting at the center of the ocean!)
+Basically, Déuström is a fun two-player party game playable on PC, with a match time of 5 to 10 minutes.</description>
+    </item>
+    
+    <item>
+      <title>Graph-VE</title>
+      <link>http://ferdbold.com/work/graph-ve/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://ferdbold.com/work/graph-ve/</guid>
+      <description>Graph-VE was a project developed during Google Summer of Code 2015 for the Wikimedia Foundation to bring graph editing capabilities to MediaWiki&amp;rsquo;s VisualEditor project.
+With this project, Wikipedia (and all other platforms powered by MediaWiki) editors can now create and edit graphs through the visual editor, bringing more modern behaviours to Wikipedia&amp;rsquo;s user experience. This module uses Vega under the hood, a JavaScript library specialized in generating graphs from a JSON-based grammar.</description>
+    </item>
+    
+    <item>
+      <title>Terra Arcana</title>
+      <link>http://ferdbold.com/work/terra-arcana/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://ferdbold.com/work/terra-arcana/</guid>
+      <description>Terra Arcana is a LARP event hosted twice per year in Saint-Apollinaire, QC, co-founded by me and 4 other LARP enthusiasts in 2013. Our mission is to bring LARP players a collaborative storytelling experience that focuses on teamplay through a rich and innovative game system built from scratch, as well as deep character development through tailored quests made in collaboration with the players themselves.
+I am the lead developer of Terra Arcana&amp;rsquo;s online presence.</description>
+    </item>
+    
+    <item>
+      <title>WonderLAN UQAC</title>
+      <link>http://ferdbold.com/work/wonderlan-uqac/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://ferdbold.com/work/wonderlan-uqac/</guid>
+      <description>The WonderLAN UQAC is the leading LAN party in Saguenay-Lac-St-Jean, bringing together more than 200 gaming enthusiasts. Multiple gaming competitions are held every year, delivering a prize pool of over 3000$ to players in the region.
+I was the lead developer of WonderLAN UQAC&amp;rsquo;s website, powered by WordPress and Twitter Bootstrap.</description>
+    </item>
+    
+    <item>
+      <title>Zombeat Stromatolite Turbo Party Club</title>
+      <link>http://ferdbold.com/work/zombeat/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://ferdbold.com/work/zombeat/</guid>
+      <description>Zombeat Stromatolite Turbo Party Club is a little rhythm game about zombies, sick beats and disco balls. It was made during the WonderJam, a 48-hour game jam held at UQAC.
+The game was made with Unity. I was in charge of the asset integration and UI of the game, including all the menus.</description>
+    </item>
+    
+    <item>
+      <title>Bonjour/Hi.</title>
+      <link>http://ferdbold.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ferdbold.com/about/</guid>
+      <description>Hi, I&amp;rsquo;m Frédéric Bolduc. I&amp;rsquo;m a game and front-end developer from the arctic wastelands of Quebec. I&amp;rsquo;m currently working full-time as a UI programmer at Ubisoft Québec, but feel free to send me a pigeon if you want to talk.
+I am also one of the founders of Terra Arcana, nothing less than the most awesome LARP event in Quebec.</description>
+    </item>
+    
+  </channel>
+</rss>
