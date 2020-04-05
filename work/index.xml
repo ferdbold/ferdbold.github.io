@@ -6,7 +6,7 @@
     <description>Recent content in My work on ferdbold | Frédéric Bolduc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-CA</language>
-    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://ferdbold.com/work/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,10 @@
     <item>
       <title>ferdbold.com</title>
       <link>http://ferdbold.com/work/ferdbold/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>http://ferdbold.com/work/ferdbold/</guid>
-      <description>This website! It was made with Jekyll and Hyde, two awesome tools to easily bring together a portfolio website and blog.
+      <description>This website! It was made with Hugo, an awesome static site generator to easily bring together a portfolio website and blog.
 It&amp;rsquo;s all open-source and hosted with GitHub Pages, so if you want to take a look at how I did it, head over to GitHub!</description>
     </item>
     
